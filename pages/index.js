@@ -26,16 +26,16 @@ const Home = () => {
 
       {/* Услуги section */}
       <div id="testimonials">
-        <SectionTitle
-          title="Услуги">
+        <SectionTitle>
+          <span class="text-4xl text-white font-bold-2">Услуги</span>
         </SectionTitle>
       </div>
       <Testimonials />
 
       {/* Works section */}
       <div id="works">
-        <SectionTitle
-          title="Как мы работаем ">
+        <SectionTitle>
+          <span class="text-4xl text-white font-bold-2">Как мы работаем</span>
         </SectionTitle>
       </div>
       <Works />
@@ -43,8 +43,8 @@ const Home = () => {
       {/* Digital-инструментов section */}
       <div id="results">
         <SectionTitle>
-          <span class="sm:text-4xl md:text-4xl lg:text-4xl font-bold bg-black rounded-2xl px-4 py-1">Что даст вашему бизнесу</span><br />
-          <span class="sm:text-4xl md:text-4xl lg:text-4xl font-bold-2">внедрение Digital-инструментов</span>
+          <span class="text-4xl text-white font-bold bg-black rounded-2xl px-4 py-1 z-10">Что даст вашему бизнесу</span><br />
+          <span class="text-4xl text-white font-bold-2 z-10">внедрение Digital-инструментов</span>
         </SectionTitle>
       </div>
       <Results />

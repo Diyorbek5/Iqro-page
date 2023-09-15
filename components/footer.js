@@ -8,22 +8,22 @@ const Footer = () => {
         <div className="text-center lg:flex lg:items-center">
           <ul className="items-center justify-end flex-1 pt-6 list-none lg:pt-0 md:flex">
             <li className="mr-3 nav__item">
-              <Link to="testimonials" spy={true} smooth={true} offset={50} duration={500} className="cursor-pointer z-10 inline-block sm:px-6 lg:px-10 xl:px-12 py-2 sm:text-sm lg:text-lg xl:text-xl px-12 py-2 text-lg font-normal text-gray-800 no-underline rounded-md dark:text-gray-200 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 focus:outline-none dark:focus:bg-gray-800">
+              <Link to="testimonials" spy={true} smooth={true} offset={50} duration={500} className="transition ease-in-out delay-80 hover:bg-teal-900 hover:-translate-y hover:scale-90 duration-200 hover:text-teal-100 cursor-pointer z-10 inline-block sm:px-6 lg:px-10 xl:px-12 py-2 sm:text-sm lg:text-lg xl:text-xl px-12 py-2 text-lg font-normal text-white no-underline rounded-md focus:bg-teal-100 focus:outline-none">
                 Услуги
               </Link>
             </li>
             <li className="mr-3 nav__item">
-              <Link to="works" spy={true} smooth={true} offset={50} duration={500} className="cursor-pointer z-10 inline-block sm:px-6 lg:px-10 xl:px-12 py-2 sm:text-sm lg:text-lg xl:text-xl px-12 py-2 text-lg font-normal text-gray-800 no-underline rounded-md dark:text-gray-200 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 focus:outline-none dark:focus:bg-gray-800">
+              <Link to="works" spy={true} smooth={true} offset={50} duration={500} className="transition ease-in-out delay-80 hover:bg-teal-900 hover:-translate-y hover:scale-90 duration-200 cursor-pointer z-10 inline-block sm:px-6 lg:px-10 xl:px-12 py-2 sm:text-sm lg:text-lg xl:text-xl px-12 py-2 text-lg font-normal text-white no-underline rounded-md hover:text-teal-100 focus:bg-teal-100 focus:outline-none">
                 Как мы работаем
               </Link>
             </li>
             <li className="mr-3 nav__item">
-              <Link to="results" spy={true} smooth={true} offset={50} duration={500} className="cursor-pointer z-10 inline-block sm:px-6 lg:px-10 xl:px-12 py-2 sm:text-sm lg:text-lg xl:text-xl px-12 py-2 text-lg font-normal text-gray-800 no-underline rounded-md dark:text-gray-200 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 focus:outline-none dark:focus:bg-gray-800">
+              <Link to="results" spy={true} smooth={true} offset={50} duration={500} className="transition ease-in-out delay-80 hover:bg-teal-900 hover:-translate-y hover:scale-90 duration-200 cursor-pointer z-10 inline-block sm:px-6 lg:px-10 xl:px-12 py-2 sm:text-sm lg:text-lg xl:text-xl px-12 py-2 text-lg font-normal text-white no-underline rounded-md hover:text-teal-100 focus:bg-teal-100 focus:outline-none">
                 Результат
               </Link>
             </li>
             <li className="mr-3 nav__item">
-              <Link to="contact" spy={true} smooth={true} offset={50} duration={500} className="cursor-pointer z-10 inline-block sm:px-6 lg:px-10 xl:px-12 py-2 sm:text-sm lg:text-lg xl:text-xl px-12 py-2 text-lg font-normal text-gray-800 no-underline rounded-md dark:text-gray-200 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 focus:outline-none dark:focus:bg-gray-800">
+              <Link to="contact" spy={true} smooth={true} offset={50} duration={500} className="transition ease-in-out delay-80 hover:bg-teal-900 hover:-translate-y hover:scale-90 duration-200 cursor-pointer z-10 inline-block sm:px-6 lg:px-10 xl:px-12 py-2 sm:text-sm lg:text-lg xl:text-xl px-12 py-2 text-lg font-normal text-white no-underline rounded-md hover:text-teal-100 focus:bg-teal-100 focus:outline-none">
                 Заказать
               </Link>
             </li>

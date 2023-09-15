@@ -5,15 +5,15 @@ import image from "../public/img/image.png";
 
 const Hero = () => {
   return (
-    <div>
+    <div className="mt-20">
       <Container className="flex flex-wrap">
         <div className="flex items-center w-full lg:w-1/2">
           <div className="max-w-2xl mb-8">
-            <h1 className="z-10 text-4xl font-bold leading-snug tracking-tight lg:text-4xl lg:leading-tight xl:text-5xl xl:leading-tight">
+            <h1 className="z-10 text-4xl font-bold text-white leading-snug tracking-tight lg:text-4xl lg:leading-tight xl:text-5xl xl:leading-tight">
               Разработка сайтов
               и мобильных приложений
             </h1>
-            <p className="z-10 py-5 text-xl leading-normal lg:text-xl xl:text-2xl">
+            <p className="z-10 py-5 text-xl text-white leading-normal lg:text-xl xl:text-2xl">
               Помогаем бизнесу увеличить прибыль
               с помощью digital-инструментов
             </p>
@@ -25,7 +25,7 @@ const Hero = () => {
                 }}
                 href="#contact"
                 rel="noopener"
-                className="px-8 py-4 text-lg font-medium text-center text-black bg-indigo-600 rounded-md">
+                className="transition ease-in-out delay-80 hover:text-teal-500 bg-blue-500 hover:-translate-y hover:scale-90 hover:bg-indigo-500 duration-300 px-8 py-4 text-lg font-medium text-center text-black rounded-md">
                 Обсудить проект
               </Link>
             </div>
